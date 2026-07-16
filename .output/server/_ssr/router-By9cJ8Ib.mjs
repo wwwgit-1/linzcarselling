@@ -4,10 +4,10 @@ import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter,
 import { t as Route$3 } from "../_email-DdcBAK-g.mjs";
 import { t as Route$4 } from "../_id-CuVELiPE.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DuCduLCa.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-By9cJ8Ib.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-DLYJfjze.css";
+var styles_default = "/assets/styles-BvPSVWXo.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -114,8 +114,24 @@ var Route$2 = createRootRouteWithContext()({
 				content: "website"
 			},
 			{
+				property: "og:image",
+				content: "/linz-motors-logo.png"
+			},
+			{
+				property: "og:image:width",
+				content: "1200"
+			},
+			{
+				property: "og:image:height",
+				content: "630"
+			},
+			{
 				name: "twitter:card",
 				content: "summary_large_image"
+			},
+			{
+				name: "twitter:image",
+				content: "/linz-motors-logo.png"
 			}
 		],
 		links: [
@@ -253,7 +269,7 @@ function RootComponent() {
 }
 var $$splitComponentImporter$1 = () => import("./admin-B7EvkWhg.mjs");
 var Route$1 = createFileRoute("/admin")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
-var $$splitComponentImporter = () => import("./routes-CbePo27w.mjs");
+var $$splitComponentImporter = () => import("./routes-lIVNd0bf.mjs");
 var Route = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter, "component") });
 var AdminRoute = Route$1.update({
 	id: "/admin",

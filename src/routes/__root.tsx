@@ -82,7 +82,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Linz Car Selling - Luxury Used Cars in Austria" },
       { property: "og:description", content: "Drive your dream. Premium pre-owned vehicles in Linz." },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/linz-motors-logo.png" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/linz-motors-logo.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

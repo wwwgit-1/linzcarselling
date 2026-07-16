@@ -2,7 +2,7 @@ import { o as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { n as apiSend, t as apiGet } from "./api-fWyQh8tb.mjs";
 import { a as useMotionValue, i as useTransform, n as animate, o as motion, r as useReducedMotion, t as useInView } from "../_libs/framer-motion.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CbePo27w.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-lIVNd0bf.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var cars = [
@@ -241,6 +241,7 @@ function LinzLanding() {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", { children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Hero, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AboutSection, {}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarListings, {
 					authUser,
 					onAuthRequested: setAuthMode
@@ -283,7 +284,7 @@ function Header({ authUser, onAuthRequested, onMembershipWithdraw }) {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 				href: "#top",
 				className: "flex items-center gap-3",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LogoMark, { scale: shrunk ? .85 : 1 }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LogoMark, { scale: shrunk ? .7 : .7 }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 					className: "font-display font-bold text-white hidden sm:inline",
 					style: {
 						letterSpacing: "0.25em",
@@ -701,9 +702,9 @@ function LogoMark({ scale }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		src: "/favicon.png",
 		alt: "",
-		width: 112,
-		height: 112,
-		className: "object-contain",
+		width: 88,
+		height: 88,
+		className: "shrink-0 object-contain",
 		style: {
 			transform: `scale(${scale})`,
 			transition: "transform 0.3s cubic-bezier(0.23,1,0.32,1)"
@@ -893,6 +894,105 @@ function RegisteredCounter() {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Registered Drivers" })
 		]
+	});
+}
+function AboutSection() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		className: "bg-white border-y border-[#d8dde5]",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-7xl px-4 py-20 lg:px-8",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "grid gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-start",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "space-y-10",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center gap-3",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "h-0.5 w-16 rounded-full bg-blue-600" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "text-xs font-semibold uppercase tracking-[0.4em] text-slate-500",
+								children: "About Us"
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+							className: "mt-5 font-display font-extrabold text-slate-950",
+							style: {
+								fontSize: "clamp(2.8rem, 4vw, 4.5rem)",
+								letterSpacing: "0.05em",
+								fontFamily: "Georgia, serif",
+								lineHeight: 1.02
+							},
+							children: ["Your Trusted Car Dealership in ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-blue-600",
+								children: "Linz"
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-6 max-w-3xl text-lg leading-[1.95] text-slate-700",
+							style: {
+								fontFamily: "Inter, sans-serif",
+								letterSpacing: "0.01em"
+							},
+							children: "Linz Car Selling is dedicated to providing quality new and used vehicles at competitive prices. We believe in honest service, transparent communication, and helping every customer find the right vehicle with confidence. Our goal is to make your car-buying experience simple, reliable, and enjoyable."
+						})
+					] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "grid gap-5 sm:grid-cols-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "rounded-[28px] border border-[#e2e8f0] bg-[#f8fafc] p-6 shadow-[0_18px_50px_rgba(15,23,42,0.07)]",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "text-sm font-semibold text-slate-950",
+								children: "Local expertise"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-3 text-sm text-slate-600",
+								children: "Deep knowledge of Linz and Upper Austria means we help you find the vehicle that fits your lifestyle."
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "rounded-[28px] border border-[#e2e8f0] bg-[#f8fafc] p-6 shadow-[0_18px_50px_rgba(15,23,42,0.07)]",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "text-sm font-semibold text-slate-950",
+								children: "Premium service"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-3 text-sm text-slate-600",
+								children: "From first inquiry to delivery, we make every step feel elegant, clear, and tailored to you."
+							})]
+						})]
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "space-y-8",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "relative overflow-hidden rounded-[40px] border border-[#d8dde5] bg-[#f4f6fa] shadow-[0_30px_100px_rgba(10,22,40,0.1)]",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							src: "/photos/about-owner-1.jpg",
+							alt: "Owner portrait",
+							className: "h-[58rem] w-full object-cover"
+						})
+					})
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mt-10 relative overflow-hidden rounded-[36px] bg-[#0f172a] shadow-[0_25px_80px_rgba(15,23,42,0.12)]",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: "/photos/about-owner-2.jpg",
+					alt: "Vehicle inventory",
+					className: "h-[30rem] w-full object-cover"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0f172a]/90 to-transparent p-6",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-sm uppercase tracking-[0.35em] text-amber/90",
+							children: "Inventory"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mt-2 text-2xl font-semibold text-white",
+							children: "Featured vehicle showcase"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+							href: "#inventory",
+							className: "mt-6 inline-flex items-center gap-2 rounded-full bg-amber px-5 py-3 text-sm font-semibold text-navy shadow-[0_20px_40px_rgba(232,168,56,0.3)] hover:bg-[#f4ca55]",
+							children: ["View inventory", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { className: "fa-solid fa-arrow-right" })]
+						})
+					]
+				})]
+			})]
+		})
 	});
 }
 function CarListings({ authUser, onAuthRequested }) {
@@ -1324,10 +1424,20 @@ function ContactSection() {
 							children: "Direct Line"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-							href: "https://t.me/linzcarselling",
+							href: "https://wa.me/4367858203924",
+							target: "_blank",
+							rel: "noreferrer",
 							className: "mt-6 flex items-center gap-3 text-navy font-bold hover:text-amber transition-colors",
-							style: { fontSize: "2.2rem" },
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { className: "fa-brands fa-telegram text-amber text-2xl" }), "linzcarselling"]
+							style: { fontSize: "clamp(1.05rem, 2vw, 1.45rem)" },
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { className: "fa-brands fa-whatsapp text-amber text-2xl" }), "+43 678 5820 3924"]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+							href: "https://t.me/linzcarsale",
+							target: "_blank",
+							rel: "noreferrer",
+							className: "mt-3 flex items-center gap-3 text-navy font-bold hover:text-amber transition-colors",
+							style: { fontSize: "clamp(1.05rem, 2vw, 1.45rem)" },
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("i", { className: "fa-brands fa-telegram text-amber text-2xl" }), "linzcarsale"]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "mt-4 flex items-center gap-2 text-sm text-navy/70",

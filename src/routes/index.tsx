@@ -280,6 +280,7 @@ function LinzLanding() {
       <Header authUser={authUser} onAuthRequested={setAuthMode} onMembershipWithdraw={handleMembershipWithdraw} />
       <main>
         <Hero />
+        <AboutSection />
         <CarListings authUser={authUser} onAuthRequested={setAuthMode} />
         <MapSection />
         <ContactSection />
@@ -336,7 +337,7 @@ function Header({
     >
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 md:px-8">
         <a href="#top" className="flex items-center gap-3">
-          <LogoMark scale={shrunk ? 0.85 : 1} />
+          <LogoMark scale={shrunk ? 0.7 : 0.7} />
           <span
             className="font-display font-bold text-white hidden sm:inline"
             style={{
@@ -708,9 +709,9 @@ function LogoMark({ scale }: { scale: number }) {
     <img
       src="/favicon.png"
       alt=""
-      width={112}
-      height={112}
-      className="object-contain"
+      width={88}
+      height={88}
+      className="shrink-0 object-contain"
       style={{ transform: `scale(${scale})`, transition: "transform 0.3s cubic-bezier(0.23,1,0.32,1)" }}
     />
   );
@@ -846,6 +847,78 @@ function RegisteredCounter() {
       <span className="font-display font-semibold text-white">{display}</span>
       <span>Registered Drivers</span>
     </div>
+  );
+}
+
+function AboutSection() {
+  return (
+    <section className="bg-white border-y border-[#d8dde5]">
+      <div className="mx-auto max-w-7xl px-4 py-20 lg:px-8">
+        <div className="grid gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
+          <div className="space-y-10">
+            <div>
+              <div className="flex items-center gap-3">
+                <div className="h-0.5 w-16 rounded-full bg-blue-600" />
+                <div className="text-xs font-semibold uppercase tracking-[0.4em] text-slate-500">About Us</div>
+              </div>
+              <h2
+                className="mt-5 font-display font-extrabold text-slate-950"
+                style={{ fontSize: "clamp(2.8rem, 4vw, 4.5rem)", letterSpacing: "0.05em", fontFamily: "Georgia, serif", lineHeight: 1.02 }}
+              >
+                Your Trusted Car Dealership in <span className="text-blue-600">Linz</span>
+              </h2>
+              <p className="mt-6 max-w-3xl text-lg leading-[1.95] text-slate-700" style={{ fontFamily: "Inter, sans-serif", letterSpacing: "0.01em" }}>
+                Linz Car Selling is dedicated to providing quality new and used vehicles at competitive prices. We believe in honest service, transparent communication, and helping every customer find the right vehicle with confidence. Our goal is to make your car-buying experience simple, reliable, and enjoyable.
+              </p>
+            </div>
+
+            <div className="grid gap-5 sm:grid-cols-2">
+              <div className="rounded-[28px] border border-[#e2e8f0] bg-[#f8fafc] p-6 shadow-[0_18px_50px_rgba(15,23,42,0.07)]">
+                <div className="text-sm font-semibold text-slate-950">Local expertise</div>
+                <p className="mt-3 text-sm text-slate-600">
+                  Deep knowledge of Linz and Upper Austria means we help you find the vehicle that fits your lifestyle.
+                </p>
+              </div>
+              <div className="rounded-[28px] border border-[#e2e8f0] bg-[#f8fafc] p-6 shadow-[0_18px_50px_rgba(15,23,42,0.07)]">
+                <div className="text-sm font-semibold text-slate-950">Premium service</div>
+                <p className="mt-3 text-sm text-slate-600">
+                  From first inquiry to delivery, we make every step feel elegant, clear, and tailored to you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-8">
+            <div className="relative overflow-hidden rounded-[40px] border border-[#d8dde5] bg-[#f4f6fa] shadow-[0_30px_100px_rgba(10,22,40,0.1)]">
+              <img
+                src="/photos/about-owner-1.jpg"
+                alt="Owner portrait"
+                className="h-[58rem] w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-10 relative overflow-hidden rounded-[36px] bg-[#0f172a] shadow-[0_25px_80px_rgba(15,23,42,0.12)]">
+          <img
+            src="/photos/about-owner-2.jpg"
+            alt="Vehicle inventory"
+            className="h-[30rem] w-full object-cover"
+          />
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0f172a]/90 to-transparent p-6">
+            <div className="text-sm uppercase tracking-[0.35em] text-amber/90">Inventory</div>
+            <div className="mt-2 text-2xl font-semibold text-white">Featured vehicle showcase</div>
+            <a
+              href="#inventory"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber px-5 py-3 text-sm font-semibold text-navy shadow-[0_20px_40px_rgba(232,168,56,0.3)] hover:bg-[#f4ca55]"
+            >
+              View inventory
+              <i className="fa-solid fa-arrow-right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -1262,12 +1335,24 @@ function ContactSection() {
             Direct Line
           </h2>
           <a
-            href="https://t.me/linzcarselling"
+            href="https://wa.me/4367858203924"
+            target="_blank"
+            rel="noreferrer"
             className="mt-6 flex items-center gap-3 text-navy font-bold hover:text-amber transition-colors"
-            style={{ fontSize: "2.2rem" }}
+            style={{ fontSize: "clamp(1.05rem, 2vw, 1.45rem)" }}
+          >
+            <i className="fa-brands fa-whatsapp text-amber text-2xl" />
+            +43 678 5820 3924
+          </a>
+          <a
+            href="https://t.me/linzcarsale"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-3 flex items-center gap-3 text-navy font-bold hover:text-amber transition-colors"
+            style={{ fontSize: "clamp(1.05rem, 2vw, 1.45rem)" }}
           >
             <i className="fa-brands fa-telegram text-amber text-2xl" />
-            linzcarselling
+            linzcarsale
           </a>
           <div className="mt-4 flex items-center gap-2 text-sm text-navy/70">
             <span className="linz-dot inline-block h-2.5 w-2.5 rounded-full bg-green-500" />

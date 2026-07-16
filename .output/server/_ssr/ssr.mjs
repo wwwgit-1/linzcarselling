@@ -447,7 +447,7 @@ var defaultAdmin = {
 	role: "admin"
 };
 async function getServerEntry() {
-	if (!serverEntryPromise) serverEntryPromise = import("./server-BgCGmevd.mjs").then((m) => m.default ?? m);
+	if (!serverEntryPromise) serverEntryPromise = import("./server-D8cn3KkH.mjs").then((m) => m.default ?? m);
 	return serverEntryPromise;
 }
 async function normalizeCatastrophicSsrResponse(response) {
