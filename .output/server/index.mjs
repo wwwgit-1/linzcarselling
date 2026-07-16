@@ -26,65 +26,58 @@ var public_assets_data_default = {
 	"/assets/admin-Cub3qgM_.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"726e-67LGnfZlXnq03mTVmtsaefh87jk\"",
-		"mtime": "2026-07-16T14:59:13.353Z",
+		"mtime": "2026-07-16T15:32:04.124Z",
 		"size": 29294,
 		"path": "../public/assets/admin-Cub3qgM_.js"
 	},
 	"/assets/api-D0_P4wlt.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"35c-YnwNnECud9iiY3zJxxz92wC0DsU\"",
-		"mtime": "2026-07-16T14:59:13.353Z",
+		"mtime": "2026-07-16T15:32:04.124Z",
 		"size": 860,
 		"path": "../public/assets/api-D0_P4wlt.js"
 	},
 	"/assets/jsx-runtime-CaR_m4Xc.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"1edb-YA3tihQJPH2usBIGDc+C49NkLY4\"",
-		"mtime": "2026-07-16T14:59:13.354Z",
+		"mtime": "2026-07-16T15:32:04.124Z",
 		"size": 7899,
 		"path": "../public/assets/jsx-runtime-CaR_m4Xc.js"
-	},
-	"/assets/leaflet-src-DeWzIhuu.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2455d-Wvy1yEn3ZaCzTtGyupTpGKXOZAk\"",
-		"mtime": "2026-07-16T14:59:13.354Z",
-		"size": 148829,
-		"path": "../public/assets/leaflet-src-DeWzIhuu.js"
-	},
-	"/assets/index-BeeHo6Qc.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"52ed0-ME8aUbzpMOYJcWb0s2ZjUFbZSbA\"",
-		"mtime": "2026-07-16T14:59:13.351Z",
-		"size": 339664,
-		"path": "../public/assets/index-BeeHo6Qc.js"
 	},
 	"/assets/rolldown-runtime-CNC7AqOf.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"36f-poL7VEo+W3rlEpE8cNtjWDVI11g\"",
-		"mtime": "2026-07-16T14:59:13.355Z",
+		"mtime": "2026-07-16T15:32:04.125Z",
 		"size": 879,
 		"path": "../public/assets/rolldown-runtime-CNC7AqOf.js"
 	},
 	"/assets/routes-CrfMWcHR.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"c22b-MWX70BaGHCbMEAbr7jwfg680eJA\"",
-		"mtime": "2026-07-16T14:59:13.355Z",
+		"mtime": "2026-07-16T15:32:04.126Z",
 		"size": 49707,
 		"path": "../public/assets/routes-CrfMWcHR.js"
-	},
-	"/assets/proxy-BPUov0s-.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"1d963-0FWaZJJYF59q9gl9F8LLca2kl/I\"",
-		"mtime": "2026-07-16T14:59:13.354Z",
-		"size": 121187,
-		"path": "../public/assets/proxy-BPUov0s-.js"
 	},
 	"/assets/_email-uN51a1zd.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"1dd4-2Rx04k59RAkJg9b6yIqrD/h/0uM\"",
-		"mtime": "2026-07-16T14:59:13.352Z",
+		"mtime": "2026-07-16T15:32:04.122Z",
 		"size": 7636,
 		"path": "../public/assets/_email-uN51a1zd.js"
+	},
+	"/assets/proxy-BPUov0s-.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"1d963-0FWaZJJYF59q9gl9F8LLca2kl/I\"",
+		"mtime": "2026-07-16T15:32:04.125Z",
+		"size": 121187,
+		"path": "../public/assets/proxy-BPUov0s-.js"
+	},
+	"/assets/leaflet-src-DeWzIhuu.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2455d-Wvy1yEn3ZaCzTtGyupTpGKXOZAk\"",
+		"mtime": "2026-07-16T15:32:04.125Z",
+		"size": 148829,
+		"path": "../public/assets/leaflet-src-DeWzIhuu.js"
 	},
 	"/photos/.gitkeep": {
 		"type": "text/plain; charset=utf-8",
@@ -96,16 +89,37 @@ var public_assets_data_default = {
 	"/assets/_id-LH1Xfvm5.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"5b43-OmWX/Bfq8yjV6i0J85o6EXUFoyM\"",
-		"mtime": "2026-07-16T14:59:13.352Z",
+		"mtime": "2026-07-16T15:32:04.123Z",
 		"size": 23363,
 		"path": "../public/assets/_id-LH1Xfvm5.js"
+	},
+	"/assets/index-BeeHo6Qc.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"52ed0-ME8aUbzpMOYJcWb0s2ZjUFbZSbA\"",
+		"mtime": "2026-07-16T15:32:04.122Z",
+		"size": 339664,
+		"path": "../public/assets/index-BeeHo6Qc.js"
 	},
 	"/assets/styles-BvPSVWXo.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"190c1-Hr5/aPjkj7piodL6jADX6+fOISQ\"",
-		"mtime": "2026-07-16T14:59:13.355Z",
+		"mtime": "2026-07-16T15:32:04.126Z",
 		"size": 102593,
 		"path": "../public/assets/styles-BvPSVWXo.css"
+	},
+	"/linz-motors-logo.png": {
+		"type": "image/png",
+		"etag": "\"85112-tNMR+PXl+G4/YFvmcxFBFVjxRXk\"",
+		"mtime": "2026-07-16T11:30:13.115Z",
+		"size": 545042,
+		"path": "../public/linz-motors-logo.png"
+	},
+	"/photos/linz-motors-logo.png": {
+		"type": "image/png",
+		"etag": "\"85112-tNMR+PXl+G4/YFvmcxFBFVjxRXk\"",
+		"mtime": "2026-07-16T11:30:13.115Z",
+		"size": 545042,
+		"path": "../public/photos/linz-motors-logo.png"
 	},
 	"/favicon.png": {
 		"type": "image/png",
